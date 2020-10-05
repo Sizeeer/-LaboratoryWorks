@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\LaboratoryWorks\LaboratoryWorks\OAP\Laba3\KrisanovLaba3\KrisanovLaba3\main.cpp(6,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  KrisanovLaba3.vcxproj -> D:\LaboratoryWorks\LaboratoryWorks\OAP\Laba3\KrisanovLaba3\Debug\KrisanovLaba3.exe
