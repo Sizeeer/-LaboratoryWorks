@@ -96,20 +96,21 @@ int main()
 
 
     //Выполнить задание без хранения последовательностей. Дано  натуральное  k . Определить k-ю цифру  последовательности: 1248163264..., в которой выписаны подряд степени 2.
-
-    /*int k = 0, num = 0;
-    cout << "Введите k" << endl;
+    unsigned k;
     cin >> k;
-    if (k == 1) {
-        cout << k << endl;
-        return 0;
+    unsigned long b = 1;
+    unsigned n = 0;
+    while (n < k) {
+        b *= 2;
+        unsigned long t = b;
+        do { 
+            n++; 
+        } while (t /= 10);
     }
-    else {
-        num = pow(2, k);
-        cout << num << endl;
-        return 0;
-    }*/
-
+    for (int i = n - k; i > 0; i--) { 
+        b /= 10;
+    }
+    cout << (b % 10);
 }
 
 
